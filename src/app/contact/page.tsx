@@ -1,0 +1,4 @@
+import type { Metadata } from "next";
+import { ContactForm } from "@/components/ContactForm";
+export const metadata: Metadata = { title: "Contact", description: "Contact Nexus Reinsurance Group in Nassau about placement, captive management and specialty risks." };
+export default function ContactPage(){return <section className="page-hero"><div className="container contact-layout"><div><p className="eyebrow">Contact Nexus</p><h1>Let’s understand the risk.</h1><p className="lead">Share the situation and objective. Our team will respond with a focused set of next steps.</p><div className="contact-details"><p><strong>Headquarters</strong><br />Hepburn House, #175 Shirley Street<br />P.O. Box 7250, Nassau, The Bahamas</p><p><strong>Direct</strong><br /><a href="mailto:info@nexusregroup.eu">info@nexusregroup.eu</a><br /><a href="tel:+447893937442">+44 7893 937442</a></p></div></div><ContactForm /></div></section>}
